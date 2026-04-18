@@ -1,0 +1,37 @@
+{
+  "name": "vscode-extensions-farshid",
+  "displayName": "VSCode extensions Farshid",
+  "description": "List of usefull extensions for VSCode by Dr. Farshid Pirahansiah",
+  "publisher": "pirahansiah",
+  "author": {
+    "name": "Farshid Pirahansiah"
+  },
+  "version": "0.0.2",
+  "icon": "img/vscode-farshid-logo.png",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pirahansiah/vscode-extensions-farshid"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "keywords": [
+    "farshid-auto-update-markdown",
+    "codesnap",
+    "excalidraw",
+    "foam",
+    "markmap",
+    "todo-tree"
+  ],
+  "extensionPack": [
+    "pirahansiah.farshid-auto-update-markdown",
+    "adpyke.codesnap",
+    "pomdtr.excalidraw-editor",
+    "foam.foam-vscode",
+    "gera2ld.markmap-vscode",
+    "gruntfuggly.todo-tree"
+  ]
+}

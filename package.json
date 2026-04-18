@@ -1,35 +1,20 @@
 {
-  "name": "vscode-extensions-farshid",
-  "displayName": "VSCode extensions Farshid",
-  "description": "List of usefull extensions I selected for CV, ML, LLM and PKM projects",
-  "publisher": "Farshid Pirahansiah",
+  "private": true,
+  "name": "vscode-extensions-farshid-monorepo",
+  "description": "Monorepo for Farshid's VS Code extensions",
   "author": {
     "name": "Farshid Pirahansiah"
-  },
-  "version": "0.0.2",
-  "icon": "img/vscode-farshid-logo.png",
-  "engines": {
-    "vscode": "^1.90.0"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/pirahansiah/vscode-extensions-farshid"
   },
-  "categories": [
-    "Extension Packs"
+  "workspaces": [
+    "farshid-extension-pack",
+    "farshid-auto-update-markdown"
   ],
-  "keywords": [
-    "codesnap",
-    "excalidraw",
-    "foam",
-    "markmap",
-    "todo-tree"
-  ],
-  "extensionPack": [
-    "adpyke.codesnap",
-    "pomdtr.excalidraw-editor",
-    "foam.foam-vscode",
-    "gera2ld.markmap-vscode",
-    "gruntfuggly.todo-tree"
-  ]
+  "scripts": {
+    "build:all": "npm run build --workspaces --if-present",
+    "package:all": "npm run package --workspaces --if-present"
+  }
 }

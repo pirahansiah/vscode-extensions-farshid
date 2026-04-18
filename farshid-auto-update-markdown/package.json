@@ -1,0 +1,70 @@
+{
+  "name": "farshid-auto-update-markdown",
+  "displayName": "Farshid Auto Update Markdown",
+  "description": "Automatically sorts markdown tables by columns specified in .farshid/md-sort-columns.txt when saving markdown files",
+  "version": "1.0.0",
+  "publisher": "pirahansiah",
+  "author": {
+    "name": "Dr. Farshid Pirahansiah",
+    "url": "https://www.pirahansiah.com"
+  },
+  "homepage": "https://www.pirahansiah.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pirahansiah/farshid-auto-update-markdown"
+  },
+  "bugs": {
+    "url": "https://github.com/pirahansiah/farshid-auto-update-markdown/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "markdown",
+    "table",
+    "sort",
+    "automation",
+    "productivity"
+  ],
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other",
+    "Formatters"
+  ],
+  "activationEvents": [
+    "onLanguage:markdown"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "autoUpdateMD.sortTables",
+        "title": "Auto Update MD: Sort Tables Now"
+      }
+    ],
+    "configuration": {
+      "title": "Auto Update MD",
+      "properties": {
+        "autoUpdateMD.configFileName": {
+          "type": "string",
+          "default": "md-sort-columns.txt",
+          "description": "Name of the configuration file containing column names to sort by (located in .farshid/ folder)"
+        },
+        "autoUpdateMD.autoUpdateOnSave": {
+          "type": "boolean",
+          "default": true,
+          "description": "Automatically sort tables when saving markdown files"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/vscode": "^1.85.0",
+    "typescript": "^5.3.0"
+  }
+}
