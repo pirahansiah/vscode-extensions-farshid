@@ -6,7 +6,7 @@
   "author": {
     "name": "Farshid Pirahansiah"
   },
-  "version": "0.0.2",
+  "version": "0.0.3",
   "icon": "img/vscode-farshid-logo.png",
   "engines": {
     "vscode": "^1.90.0"
@@ -19,7 +19,7 @@
     "Extension Packs"
   ],
   "keywords": [
-    "farshid-auto-update-markdown",
+    "drfarshidpirahansiah.farshid-auto-update-markdown",
     "codesnap",
     "excalidraw",
     "foam",
@@ -27,7 +27,7 @@
     "todo-tree"
   ],
   "extensionPack": [
-    "DrFarshidPirahansiah.farshid-auto-update-markdown",
+    "drfarshidpirahansiah.farshid-auto-update-markdown",
     "adpyke.codesnap",
     "pomdtr.excalidraw-editor",
     "foam.foam-vscode",
