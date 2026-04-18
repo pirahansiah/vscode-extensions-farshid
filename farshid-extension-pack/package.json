@@ -1,6 +1,6 @@
 {
-  "name": "vscode-extensions-farshid",
-  "displayName": "VSCode extensions Farshid",
+  "name": "farshid-extension-pack",
+  "displayName": "Farshid Extension Pack",
   "description": "List of usefull extensions for VSCode by Dr. Farshid Pirahansiah",
   "publisher": "pirahansiah",
   "author": {
