@@ -2,7 +2,7 @@
   "name": "farshid-extension-pack",
   "displayName": "Farshid Extension Pack",
   "description": "List of usefull extensions for VSCode by Dr. Farshid Pirahansiah",
-  "publisher": "pirahansiah",
+  "publisher": "DrFarshidPirahansiah",
   "author": {
     "name": "Farshid Pirahansiah"
   },
@@ -27,7 +27,7 @@
     "todo-tree"
   ],
   "extensionPack": [
-    "pirahansiah.farshid-auto-update-markdown",
+    "DrFarshidPirahansiah.farshid-auto-update-markdown",
     "adpyke.codesnap",
     "pomdtr.excalidraw-editor",
     "foam.foam-vscode",

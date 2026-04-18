@@ -7,7 +7,7 @@ Monorepo containing multiple VS Code extensions.
 
 | Extension | Description |
 |-----------|-------------|
-| [farshid-extension-pack](./farshid-extension-pack) | Curated extension pack for CV, ML, LLM and PKM projects |
+| [farshid-extension-pack](./farshid-extension-pack) |  extension pack  |
 | [farshid-auto-update-markdown](./farshid-auto-update-markdown) | Automatically sorts markdown tables on save |
 
 

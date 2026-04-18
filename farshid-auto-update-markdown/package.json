@@ -3,7 +3,7 @@
   "displayName": "Farshid Auto Update Markdown",
   "description": "Automatically sorts markdown tables by columns specified in .farshid/md-sort-columns.txt when saving markdown files",
   "version": "1.0.0",
-  "publisher": "pirahansiah",
+  "publisher": "DrFarshidPirahansiah",
   "author": {
     "name": "Dr. Farshid Pirahansiah",
     "url": "https://www.pirahansiah.com"
