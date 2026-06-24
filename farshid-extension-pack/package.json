@@ -6,7 +6,7 @@
   "author": {
     "name": "Farshid Pirahansiah"
   },
-  "version": "0.0.3",
+  "version": "0.0.4",
   "icon": "img/vscode-farshid-logo.png",
   "engines": {
     "vscode": "^1.90.0"
@@ -24,6 +24,7 @@
     "excalidraw",
     "foam",
     "markmap",
+    "markmap-universe",
     "todo-tree"
   ],
   "extensionPack": [
@@ -32,6 +33,7 @@
     "pomdtr.excalidraw-editor",
     "foam.foam-vscode",
     "gera2ld.markmap-vscode",
+    "maxchang.vscode-markmap-universe",
     "gruntfuggly.todo-tree"
   ]
 }
