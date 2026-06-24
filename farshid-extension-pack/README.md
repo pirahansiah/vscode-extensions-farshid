@@ -4,7 +4,7 @@ Collection of extensions to get started with LLMs in VSCode.
 
 ## Included Extensions
 
-- [CodeSnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap)
+- [Easy CodeSnap](https://marketplace.visualstudio.com/items?itemName=ArthurLobo.easy-codesnap)
 - [Excalidraw](https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor)
 - [Foam](https://marketplace.visualstudio.com/items?itemName=foam.foam-vscode)
 - [Markmap](https://marketplace.visualstudio.com/items?itemName=gera2ld.markmap-vscode)

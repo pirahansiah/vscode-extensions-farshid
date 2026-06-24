@@ -6,7 +6,7 @@
   "author": {
     "name": "Farshid Pirahansiah"
   },
-  "version": "0.0.4",
+  "version": "0.0.5",
   "icon": "img/vscode-farshid-logo.png",
   "engines": {
     "vscode": "^1.90.0"
@@ -20,7 +20,7 @@
   ],
   "keywords": [
     "drfarshidpirahansiah.farshid-auto-update-markdown",
-    "codesnap",
+    "easy-codesnap",
     "excalidraw",
     "foam",
     "markmap",
@@ -29,7 +29,7 @@
   ],
   "extensionPack": [
     "drfarshidpirahansiah.farshid-auto-update-markdown",
-    "adpyke.codesnap",
+    "ArthurLobo.easy-codesnap",
     "pomdtr.excalidraw-editor",
     "foam.foam-vscode",
     "gera2ld.markmap-vscode",
